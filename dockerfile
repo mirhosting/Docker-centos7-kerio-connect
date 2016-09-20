@@ -27,3 +27,4 @@ RUN chmod +x /usr/local/src/kerio.rpm
 RUN rpm -ivh /usr/local/src/kerio.rpm
 
 EXPOSE 4040 22 25 465 587 110 995 143 993 119 563 389 636 80 443 5222 5223
+VOLUME /opt/kerio/mailserver/store
